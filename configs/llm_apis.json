@@ -1,0 +1,6 @@
+{
+    "qwen-plus": {
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "api_key": "sk-1ceeaa752bf549868dd7dcb0bcc664b2"
+    }
+}

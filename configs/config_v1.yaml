@@ -1,0 +1,35 @@
+PROMPT_CONFIG:
+  score_table_prompt_path: './assets/prompts/step4_评分表list提取.txt'
+  fuse_table_tec_prompt_path: './assets/prompts/step4_评分表和技术建议书补全.txt'
+  overview_project_prompt_path: './assets/prompts/step6_总结项目概况.txt'
+  expand_dir_prompt_path: './assets/prompts/step6_1_扩充目录.txt'
+  fill_content_prompt_path: './assets/prompts/step6_1_填充内容.txt'
+  polish_content_prompt_path: './assets/prompts/step6_1_内容润色.txt'
+
+tool_name: 'docling'
+dotx_template_path: './assets/template_examples/template_v3.dotx'
+real_examples_template_path: './assets/template_examples/templates_v2.json'
+
+api_setting_path: './configs/llm_apis.json'
+
+progress_file: ''
+normal_log_file: ''
+
+model_name: 'qwen-plus'    # 这里设置使用的大模型名字
+
+FILE_CONFIG:
+  docx_file_path: './assets/test_ws/新标书/技术规范书.docx'
+  save_path: './outputs/'    # 设置保存路径
+
+max_pages: 150
+chars_per_page: 700
+
+num_workers: 64
+single_spec_data: True
+single_spec_data_path: './assets/test_ws/新标书/技术规范书.docx'   #  输入的技术规范书路径
+single_score_table: True
+single_score_table_path: './assets/test_ws/新标书/评分项.docx'    #  输入的评分表路径
+total_steps: 5
+
+style_setting_id: 1   # 生成的风格id
+style_json_path: './assets/template_examples/style_settings.json'  # 风格设置文件路径
