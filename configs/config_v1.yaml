@@ -18,17 +18,17 @@ normal_log_file: ''
 model_name: 'qwen-plus'    # 这里设置使用的大模型名字
 
 FILE_CONFIG:
-  docx_file_path: './assets/test_ws/新标书/技术规范书.docx'
+  docx_file_path: './assets/new_file/招标文件-2025-2026年中国联通软研院数字化底座数字化研发平台研发项目（数字化研发平台需求管理能力委托研发）.docx'
   save_path: './outputs/'    # 设置保存路径
 
 max_pages: 150
 chars_per_page: 700
 
 num_workers: 64
-single_spec_data: True
-single_spec_data_path: './assets/test_ws/新标书/技术规范书.docx'   #  输入的技术规范书路径
-single_score_table: True
-single_score_table_path: './assets/test_ws/新标书/评分项.docx'    #  输入的评分表路径
+single_spec_data: True                                 # True表示有单独的技术规范文件可用
+single_spec_data_path: './assets/new_file/附件3-技术规范书.docx'   #  输入的技术规范书路径
+single_score_table: True                                    # True表示有单独的评分表文件可用
+single_score_table_path: './assets/new_file/附件1-详细评审表.xlsx'    #  输入的评分表路径
 total_steps: 5
 
 style_setting_id: 1   # 生成的风格id

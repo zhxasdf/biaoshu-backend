@@ -1,0 +1,11 @@
+docling
+python-docx
+pandas
+numpy
+markdown
+markdown2json
+beautifulsoup4
+omegaconf
+openai
+zhipuai
+
